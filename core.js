@@ -1,3 +1,5 @@
+let LANG
+
 render("eng")
 copyContact()
 
@@ -8,6 +10,7 @@ document.querySelectorAll(".lang").forEach(button => {
 })
 
 async function getLang(lang) {
+    LANG = lang
     const fetchedData = await fetch(`./data/${lang}.json`)
     const data = await fetchedData.json()
     return data
@@ -68,7 +71,19 @@ function changeLocalization(langData) {
 
 function copyContact() {
     document.querySelector(".contact-info").addEventListener("click", () => {
-        const contact = document.querySelector(".phone").innerHTML
-        navigator.clipboard.writeText(contact)
+        const phone = document.querySelector(".phone").innerHTML
+        navigator.clipboard.writeText(phone)
+        copiedPhone(phone)
     })
+}
+
+function copiedPhone(phone) {
+    let copied
+    if(LANG === "eng") copied = "Copied!"
+    if(LANG === "pl") copied = "Skopiowane!"
+    if(LANG === "ua") copied = "Скопійовано!"
+    document.querySelector(".phone").innerText = copied
+    setTimeout(() => {
+        document.querySelector(".phone").innerText = phone
+    }, 1000)
 }
