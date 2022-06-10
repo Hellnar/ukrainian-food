@@ -1,0 +1,119 @@
+{   
+
+    "text": {
+        "contact": "Kontakt",
+        "menu": "Menu",
+        "pricing": "Ceny",
+        "additional": ["Przyjmowanie zamówień czynne do soboty 12:00", "Wysyłka zamówień - w każdą środę"]
+    },
+    "cards": [
+        {
+            "name": "Vareniki",
+            "description": "Tradycyjne ukraińskie danie z różnymi nadzieniami. Jedno opakowanie - 500g.",
+            "image": "vareniki.jpg",
+            "prices": [
+                {
+                    "item": "Ziemniaki",
+                    "price": "15.00 zl"
+                },
+                {
+                    "item": "Ziemniaki + grzyby",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Ziemniaki + wątroba",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Ziemniaki + twarożek + cebula",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Kapusta",
+                    "price": "15.00 zl"
+                },
+                {
+                    "item": "Twarożek (słony)",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Twarożek (słodkie)",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Owoc",
+                    "price": "20.00 zl"
+                }
+            ]
+        },
+        {
+            "name": "Pelmeni",
+            "description": "Pelmeni składają się z nadzienia zawiniętego w cienkie przaśne ciasto. Jedno opakowanie - 500g.",
+            "image": "dumplings.jpg",
+            "prices": [
+                {
+                    "item": "Kura",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Kura + wieprzowina",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Kura + wołowina",
+                    "price": "20.00 zl"
+                }
+            ]
+        },
+        {
+            "name": "Naleśnik",
+            "description": "Smaczne naleśniki z różnymi nadzieniami. Minimalne zamówienie: 25 sztuk (Opróżniać), 10 sztuk (nadziewane).",
+            "image": "pancakes.jpg",
+            "prices": [
+                {
+                    "item": "Opróżniać (od 25 szt)",
+                    "price": "10.00 zl/kg"
+                },
+                {
+                    "item": "Twarożek (słodkie)",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Twarożek (słodkie) + rodzynki",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Kura + grzyby",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Wątroba",
+                    "price": "20.00 zl/kg"
+                }
+            ]
+        },
+        {
+            "name": "Klopsiki gryczane",
+            "description": "Narodowy posiłek ukraiński składający się z mięsa mielonego i ugotowanej kaszy gryczanej.",
+            "image": "meatballs.jpg",
+            "prices": [
+                {
+                    "item": "Klopsiki gryczane",
+                    "price": "25.00 zl/kg"
+                }
+
+            ]
+        },
+        {
+            "name": "Gołąbki",
+            "description": "Gołąbki to danie kuchni ukraińskiej. Składa się z mięsa mielonego zawiniętego w liście gotowanej kapusty.",
+            "image": "cabbage rolls.jpg",
+            "prices": [
+                {
+                    "item": "Gołąbki",
+                    "price": "25.00 zl/kg"
+                }
+            ]
+        }
+    ]
+}

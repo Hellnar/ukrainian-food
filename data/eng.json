@@ -1,0 +1,119 @@
+{   
+
+    "text": {
+        "contact": "Contact",
+        "menu": "Menu",
+        "pricing": "Pricing",
+        "additional": ["We are taking orders until Saturday 12:00", "Delivery of orders - every Wednesday"]
+    },
+    "cards": [
+        {
+            "name": "Vareniki",
+            "description": "Traditional ukrainian meal with different fillings. One pack - 500g.",
+            "image": "vareniki.jpg",
+            "prices": [
+                {
+                    "item": "Potatoes",
+                    "price": "15.00 zl"
+                },
+                {
+                    "item": "Potatoes + mushrooms",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Potatoes + liver",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Potatoes + cottage cheese + onion",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Cabbage",
+                    "price": "15.00 zl"
+                },
+                {
+                    "item": "Сottage cheese (salted)",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Сottage cheese (sweet)",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Fruits",
+                    "price": "20.00 zl"
+                }
+            ]
+        },
+        {
+            "name": "Dumplings",
+            "description": "Dumplings consist of a filling wrapped in thin, unleavened dough. One pack - 500g.",
+            "image": "dumplings.jpg",
+            "prices": [
+                {
+                    "item": "Chicken",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Chicken + pork",
+                    "price": "20.00 zl"
+                },
+                {
+                    "item": "Chicken + beef",
+                    "price": "20.00 zl"
+                }
+            ]
+        },
+        {
+            "name": "Pancakes",
+            "description": "Tasty pancakes with different fillings. Minimum order: 25 pieces (empty), 10 pieces (filled).",
+            "image": "pancakes.jpg",
+            "prices": [
+                {
+                    "item": "Empty (min 25 pc)",
+                    "price": "10.00 zl"
+                },
+                {
+                    "item": "Cottage cheese (sweet)",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Cottage cheese (sweet) + raisin",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Chicken + mushrooms",
+                    "price": "20.00 zl/kg"
+                },
+                {
+                    "item": "Liver",
+                    "price": "20.00 zl/kg"
+                }
+            ]
+        },
+        {
+            "name": "Buckwheat meatballs",
+            "description": "National ukrainian meal that consist of minced meat and boiled buckwheat porridge.",
+            "image": "meatballs.jpg",
+            "prices": [
+                {
+                    "item": "Buckwheat meatballs",
+                    "price": "25.00 zl/kg"
+                }
+
+            ]
+        },
+        {
+            "name": "Cabbage rolls",
+            "description": "Cabbage rolls is a dish of Ukrainian cuisine. Consists of minced meat wrapped in boiled cabbage leaves.",
+            "image": "cabbage rolls.jpg",
+            "prices": [
+                {
+                    "item": "Cabbage rolls",
+                    "price": "25.00 zl/kg"
+                }
+            ]
+        }
+    ]
+}

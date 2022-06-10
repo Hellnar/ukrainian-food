@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  color: #334155;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  margin: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #334155;
+  font-weight: 700;
+}
+
+body {
+  padding: 0 15vw;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .logo img {
+  height: 2.8rem;
+  width: 2.8rem;
+  margin-right: 0.5rem;
+}
+
+header .logo p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .contact .contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+header .contact .contact-info .contact-title {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+header .contact .contact-info .phone {
+  font-size: 1.2rem;
+}
+
+header .contact .additional-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .language {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .language button {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: none;
+  margin-left: 0.5rem;
+}
+
+header .language button img {
+  width: 100%;
+  height: 100%;
+}
+
+header .language button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+main .menu .menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+main .menu .menu-list .menu-card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid #cbd5e1;
+  max-width: 500px;
+}
+
+main .menu .menu-list .menu-card .card-image {
+  width: 100%;
+  height: 15rem;
+}
+
+main .menu .menu-list .menu-card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+main .menu .menu-list .menu-card .card-content {
+  border-top: none;
+  padding: 1rem;
+}
+
+main .menu .menu-list .menu-card .card-content .food-name p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main .menu .menu-list .menu-card .card-content .description {
+  padding-top: 1rem;
+}
+
+main .menu .menu-list .menu-card .card-content .description p {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+main .menu .menu-list .menu-card .card-content .pricing {
+  padding-top: 1rem;
+}
+
+main .menu .menu-list .menu-card .card-content .pricing .pricing-title {
+  font-weight: 700;
+  border-bottom: 1px solid #cbd5e1;
+  padding-bottom: 0.5rem;
+}
+
+main .menu .menu-list .menu-card .card-content .pricing .pricing-list {
+  padding-top: 0.5rem;
+}
+
+main .menu .menu-list .menu-card .card-content .pricing .pricing-list .option {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+main .menu .menu-list .menu-card .card-content .pricing .pricing-list .option .option-price {
+  text-align: right;
+}
+
+main .menu .menu-list .menu-card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1900px) {
+  body {
+    padding: 0 10vw;
+  }
+}
+
+@media (max-width: 1366px) {
+  body {
+    padding: 0 5vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  main .menu .menu-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  header .contact {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 786px) {
+  main .menu .menu-list {
+    grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=style.css.map */

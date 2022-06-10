@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: #334155;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+    margin: 2rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 700;
+}
+
+body {
+    padding: 0 15vw;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            height: 2.8rem;
+            width: 2.8rem;
+            margin-right: 0.5rem;
+        }
+
+        p {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #cbd5e1;
+            width: fit-content;
+            padding: 0.5rem;
+            border-radius: 10px;
+            
+            .contact-title {
+                font-size: 1.2rem;
+                margin-right: 0.5rem;
+                font-weight: 700;
+            }
+    
+            .phone {
+                font-size: 1.2rem;
+            }
+        }
+
+        .additional-info {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    .language {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            height: 2rem;
+            width: 2rem;
+            background-color: transparent;
+            border: none;
+            margin-left: 0.5rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        button:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
+
+main {
+    .menu {
+        .menu-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            gap: 1rem;
+
+            .menu-card {
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border: 1px solid #cbd5e1;
+                max-width: 500px;
+
+                .card-image {
+                    width: 100%;
+                    height: 15rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                    }
+                }
+
+                .card-content {
+                    border-top: none;
+                    padding: 1rem;
+
+                    .food-name {
+                        p {
+                            font-size: 1.5rem;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .description {
+                        padding-top: 1rem;
+
+                        p {
+                            font-size: 0.9rem;
+                            color: #64748b;
+                        }
+                    }
+
+                    .pricing {
+                        padding-top: 1rem;
+                        .pricing-title {
+                            font-weight: 700;
+                            border-bottom: 1px solid #cbd5e1;
+                            padding-bottom: 0.5rem;
+                        }
+
+                        .pricing-list {
+                            padding-top: 0.5rem;
+                            .option {
+                                display: grid;
+                                grid-template-columns: 3fr 1fr;
+
+                                .option-price {
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .menu-card:hover {
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+@import "./adapt";
