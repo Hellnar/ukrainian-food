@@ -66,6 +66,7 @@ header .contact .contact-info {
   width: fit-content;
   padding: 0.5rem;
   border-radius: 10px;
+  transition: .2s;
 }
 
 header .contact .contact-info .contact-title {
@@ -76,6 +77,12 @@ header .contact .contact-info .contact-title {
 
 header .contact .contact-info .phone {
   font-size: 1.2rem;
+}
+
+header .contact .contact-info:hover {
+  cursor: pointer;
+  background-color: #f1f5f9;
+  transition: .2s;
 }
 
 header .contact .additional-info {

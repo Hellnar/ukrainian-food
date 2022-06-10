@@ -1,4 +1,5 @@
 render("eng")
+copyContact()
 
 document.querySelectorAll(".lang").forEach(button => {
     button.addEventListener("click", () => {
@@ -63,4 +64,11 @@ function changeLocalization(langData) {
     document.querySelector(".menu h2").innerText = langData.text.menu
     document.querySelector(".additional-info p").innerText = langData.text.additional[0]
     document.querySelector(".additional-info p:nth-child(2)").innerText = langData.text.additional[1]
+}
+
+function copyContact() {
+    document.querySelector(".contact-info").addEventListener("click", () => {
+        const contact = document.querySelector(".phone").innerHTML
+        navigator.clipboard.writeText(contact)
+    })
 }
