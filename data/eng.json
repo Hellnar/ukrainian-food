@@ -99,7 +99,7 @@
             "prices": [
                 {
                     "item": "Buckwheat meatballs",
-                    "price": "25.00 zl/kg"
+                    "price": "25.00 zl/500g"
                 }
 
             ]
@@ -111,7 +111,7 @@
             "prices": [
                 {
                     "item": "Cabbage rolls",
-                    "price": "25.00 zl/kg"
+                    "price": "25.00 zl/500g"
                 }
             ]
         }
