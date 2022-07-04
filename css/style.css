@@ -178,7 +178,7 @@ main .menu .menu-list .menu-card .card-content .pricing .pricing-list {
 
 main .menu .menu-list .menu-card .card-content .pricing .pricing-list .option {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
 }
 
 main .menu .menu-list .menu-card .card-content .pricing .pricing-list .option .option-price {
