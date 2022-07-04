@@ -72,23 +72,23 @@
             "prices": [
                 {
                     "item": "Empty (min 25 pc)",
-                    "price": "10.00 zl"
+                    "price": "10.00 zl/500g"
                 },
                 {
                     "item": "Cottage cheese (sweet)",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Cottage cheese (sweet) + raisin",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Chicken + mushrooms",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Liver",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 }
             ]
         },

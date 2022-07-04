@@ -72,23 +72,23 @@
             "prices": [
                 {
                     "item": "Opróżniać (od 25 szt)",
-                    "price": "10.00 zl/kg"
+                    "price": "10.00 zl/500g"
                 },
                 {
                     "item": "Twarożek (słodkie)",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Twarożek (słodkie) + rodzynki",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Kura + grzyby",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 },
                 {
                     "item": "Wątroba",
-                    "price": "20.00 zl/kg"
+                    "price": "20.00 zl/500g"
                 }
             ]
         },
